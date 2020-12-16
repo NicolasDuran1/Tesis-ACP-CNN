@@ -1,0 +1,25 @@
+Database:  Full   dipolemoment  
+
+--------------------------------------------------
+Model Selection: Onehot | k-mers Sparse Matrix | Autoencoder | (AAC - DPC - PCP)
+--------------------------------------------------
+Accuracy Training:  0
+Accuracy Testing:  99.86842155456543
+Precision:  100.0
+Sensitivity:  99.73684210526315
+Specificity:  100.0
+f_1 Score:  99.86754966887416
+MCC:  99.73855084879307
+AUC Score:  99.86842105263159
+MSE:  0.0013157894736842105
+Mis-Classification:  0.0013157894736842036
+                      1    2    3                  4    5
+Accuracy Training   0.0  0.0  0.0  0.000000000000000  0.0
+Accuracy Test       1.0  1.0  1.0  0.993421077728271  1.0
+Precision           1.0  1.0  1.0  1.000000000000000  1.0
+Sensitivity         1.0  1.0  1.0  0.986842105263158  1.0
+Specificity         1.0  1.0  1.0  1.000000000000000  1.0
+MCC                 1.0  1.0  1.0  0.986927542439654  1.0
+AUC Score           1.0  1.0  1.0  0.993421052631579  1.0
+f_1 Score           1.0  1.0  1.0  0.993377483443709  1.0
+Mis-Classification  0.0  0.0  0.0  0.006578947368421  0.0

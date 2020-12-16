@@ -1,0 +1,97 @@
+Conection to Linux Server
+	ssh nduran@soma.ucm.cl -p 3333
+	pass: 12345678
+
+cd /home/alumnos/nduran/
+
+Copy a file to the folder from Windows to Linux
+	pscp -P 3333 C:\Users\drn_x\Desktop\"filename" nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\modelo.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\gsearch_2.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/SavedResults/save_print.txt C:\Users\drn_x\Desktop
+	pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/SavedResults/save_print2.txt C:\Users\drn_x\Desktop
+	pscp -P 3333 C:\Users\drn_x\Desktop\gsearch_opt.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\gsearch_activation.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\gsearch_learning.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/SavedResults/gs_batch2.txt C:\Users\drn_x\Desktop
+	pscp -P 3333 C:\Users\drn_x\Desktop\Tuning\gsearch_opt.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\Tuning\gsearch_learning.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 C:\Users\drn_x\Desktop\Tuning\gsearch_activation.py nduran@soma.ucm.cl:/home/alumnos/nduran/
+	pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/SavedResults/gs_activation.txt C:\Users\drn_x\Desktop
+
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Full\full_DipoleMoment.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Full\full_hydro.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Full\full_Polarity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Full\full_VanWaals.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Full\full_polarizability.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\NoFeature\nf_DipoleMoment.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\NoFeature\nf_hydro.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\NoFeature\nf_Polarity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\NoFeature\nf_VanWaals.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\NoFeature\nf_polarizability.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature
+
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\Full\ind_nf_dipoleMoment.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\Full\ind_nf_hydrophobicity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\Full\ind_nf_polarity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\Full\ind_nf_polarizability.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\Full\ind_nf_vanWaals.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full/
+
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\NoFeature\ind_nf_dipoleMoment.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\NoFeature\ind_nf_hydrophobicity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\NoFeature\ind_nf_polarity.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\NoFeature\ind_nf_polarizability.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\Encoded\Independent\NoFeature\ind_nf_vanWaals.txt nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature/
+
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\polarity.py nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\dipolemoment.py nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\hydro.py nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\vanwaals.py nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/
+pscp -P 3333 C:\Users\drn_x\Desktop\5F-CV-Alphabeth\polarizability.py nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/
+
+pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults/polarity.txt C:\Users\drn_x\Desktop\5F-CV-Alphabeth\SavedResults
+pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults/dipolemoment.txt C:\Users\drn_x\Desktop\5F-CV-Alphabeth\SavedResults
+pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults/hydro.txt C:\Users\drn_x\Desktop\5F-CV-Alphabeth\SavedResults
+pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults/vanwaals.txt C:\Users\drn_x\Desktop\5F-CV-Alphabeth\SavedResults
+pscp -P 3333 nduran@soma.ucm.cl:/home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults/polarizability.txt C:\Users\drn_x\Desktop\5F-CV-Alphabeth\SavedResults
+
+python3 polarity.py 0
+python3 dipolemoment.py 0
+python3 hydro.py 0
+python3 vanwaals.py 0
+python3 polarizability.py 0
+
+
+Convert Jupyter Notebook to Python Script
+	jupyter nbconvert --to script filename.ipynb
+
+Use pip:
+	pip3 install 'package'
+	pip2 install 'package'
+
+Create Folder:
+	mkdir -p /home/alumnos/nduran/Databases
+	mkdir -p /home/alumnos/nduran/SavedResults
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/Full
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/Full
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/Independent/NoFeature
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/NoFeature/
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedModel
+	mkdir -p /home/alumnos/nduran/5FCV-Alphabeth/Encoded/SavedResults
+
+Access files on directory:
+	ls
+
+Access current directory:
+	pwd
+
+Move File to directory
+	mv origin destination
+	mv df_full.txt /home/alumnos/nduran/Databases
+	mv df_full_nofeatures.txt /home/alumnos/nduran/Databases
+
+Remove file from Directory:
+	rm filename
+
+
+17:12
